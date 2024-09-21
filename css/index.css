@@ -1,0 +1,463 @@
+.hero {
+    display: block;
+    background-image: url(../imgs/hero-bg.png);
+}
+
+.hero .hero-logo {
+    width: 55%;
+}
+
+.hero .hero-video {
+    width: 100%;
+    aspect-ratio: 1/.7;
+    object-position: center -13vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.hero .hero-title {
+    color: #fff;
+    background-color: #fe9317;
+    width: 75%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 3% 0px;
+    position: relative;
+    font-weight: 500;
+}
+
+.hero .hero-title::after {
+    content: " ";
+    position: absolute;
+    top: -3px;
+    right: -6%;
+    width: 24%;
+    height: 15%;
+    background-color: #0e2938;
+}
+
+.hero .hero-title::before {
+    content: " ";
+    position: absolute;
+    bottom: -3px;
+    left: -6%;
+    width: 24%;
+    height: 15%;
+    background-color: #8fb8af;
+}
+
+.hero p {
+    width: 85%;
+    color: #0f2937;
+    font-weight: 500;
+}
+
+.hero .btn-con {
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero .btn-con button {
+    background-color: #fe9317;
+    color: #fff;
+    padding: 2% 0px;
+    width: 25%;
+    border-radius: .2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* #############################################3 */
+
+/* sharaakaat */
+
+.sharaakaat {
+    background: #780A47;
+}
+
+.sharaakaat .back-btn {
+    background: #E1912E;
+
+}
+
+.sharaakaat .mid-title {
+    color: #E1912E;
+
+
+}
+
+.sharaakaat .num {
+    background: #012938;
+    background: #780A47;
+    color: #E1912E;
+}
+
+.sharaakaat .page-img {
+    width: 92.5%;
+    margin-right: auto;
+    display: block;
+
+}
+/* tadreeb-dawly */
+
+.tadreeb-dawly {
+    background: #012938;
+}
+
+.tadreeb-dawly .back-btn {
+    background: #8fb8af;
+
+}
+
+.tadreeb-dawly .mid-title {
+    color: #E1912E;
+}
+
+.tadreeb-dawly .num {
+    background: #780A47;
+    color: #E1912E;
+}
+
+.tadreeb-dawly .page-img {
+    width: 92.5%;
+    margin-right: auto;
+    display: block;
+
+}
+/* tadreeb-wekaalaat */
+
+.tadreeb-wekaalaat {
+    background: #8fb8af;
+}
+
+.tadreeb-wekaalaat .back-btn {
+    background: #012938;
+
+}
+
+.tadreeb-wekaalaat .mid-title {
+    color: #012938;
+}
+
+.tadreeb-wekaalaat .num {
+    background: #780A47;
+    color: #E1912E;
+}
+
+.tadreeb-wekaalaat .page-img {
+    width: 50%;
+    margin-left: auto;
+    display: block;
+
+}
+/* daam-shorakaa */
+
+.daam-shorakaa {
+    background: #012938;
+}
+
+.daam-shorakaa .back-btn {
+    background: #8fb8af;
+
+}
+
+.daam-shorakaa .mid-title {
+    color: #012938;
+}
+
+.daam-shorakaa .num {
+    background: #012938;
+    
+    color: #E1912E;
+}
+
+.daam-shorakaa .page-img {
+    width: 50%;
+    margin-left: auto;
+    display: block;
+
+}
+/* tadreeb-naashreen */
+
+.tadreeb-naashreen {
+    background: #780A47;
+}
+
+.tadreeb-naashreen .back-btn {
+    background: #E1912E;
+
+}
+
+.tadreeb-naashreen .mid-title {
+    color: #E1912E;
+}
+
+.tadreeb-naashreen .num {
+    background: #780A47;
+    
+    color: #E1912E;
+}
+
+.tadreeb-naashreen .page-img {
+    width: 50%;
+    margin-left: auto;
+    display: block;
+
+}
+/* mosareaat */
+
+.mosareaat {
+    background: #012938;
+}
+
+.mosareaat .back-btn {
+    background: #8fb8af;
+
+}
+
+.mosareaat .mid-title {
+    color: #85B8B1;
+}
+
+.mosareaat .num {
+    background: #012938;
+    
+    color: #85B8B1;
+}
+
+.mosareaat .page-img {
+    width: 50%;
+    margin-left: auto;
+    display: block;
+
+}
+/* adb */
+
+.adb {
+    background: #8fb8af;
+}
+
+.adb .back-btn {
+    background: #012938;
+
+}
+
+.adb .mid-title {
+    color: #85B8B1;
+}
+
+.adb .num {
+    background: #012938;
+    
+    color: #85B8B1;
+}
+
+.adb .page-img {
+    width: 93%;
+    margin-right: auto;
+    display: block;
+
+}
+/* ershaad */
+
+.ershaad {
+    background: #012938;
+}
+
+.ershaad .back-btn {
+    background: #8fb8af;
+
+}
+
+.ershaad .mid-title {
+    color: #85B8B1;
+}
+
+.ershaad .num {
+    background: #012938;
+    
+    color: #85B8B1;
+}
+
+.ershaad .page-img {
+    width: 93%;
+    margin-right: auto;
+    display: block;
+
+}
+/* tadreeb-targama */
+
+.tadreeb-targama {
+    background: #8fb8af;
+}
+
+.tadreeb-targama .back-btn {
+    background: #012938;
+
+}
+
+.tadreeb-targama .mid-title {
+    color: #012938;
+}
+
+.tadreeb-targama .num {
+    color: #012938;
+    
+    background: #85B8B1;
+}
+
+.tadreeb-targama .page-img {
+    width: 73%;
+    margin-right: auto;
+    display: block;
+
+}
+/* manga */
+
+.manga {
+    background: #830048;
+}
+
+.manga .back-btn {
+    background: #E1912E;
+
+}
+
+.manga .mid-title {
+    color: #012938;
+}
+
+.manga .num {
+    color: #012938;
+    
+    background: #85B8B1;
+}
+
+.manga .page-img {
+    width: 100%;
+    margin-right: auto;
+    display: block;
+
+}
+/* tadreeb-falsafa */
+
+.tadreeb-falsafa {
+    
+    background-color: #012938;
+}
+
+.tadreeb-falsafa .back-btn {
+    background: #85B8B1;
+    
+}
+
+
+.tadreeb-falsafa .mid-title {
+    color: #fff;
+    background: #85B8B1;
+}
+
+.tadreeb-falsafa .num {
+    background-color: #012938;
+    color: #fff;
+    
+}
+
+.tadreeb-falsafa .page-img {
+    width: 93%;
+    margin-right: auto;
+    display: block;
+
+}
+
+/* gawda */
+
+.gawda {
+    
+    background-color: #780A47;
+}
+
+.gawda .back-btn {
+    background: #fe9317;
+    
+}
+
+
+.gawda .mid-title {
+    color: #fff;
+    background: #85B8B1;
+}
+
+.gawda .num {
+    background-color: #012938;
+    color: #fff;
+    
+}
+
+.gawda .page-img {
+    width: 75%;
+    margin-right: auto;
+    display: block;
+
+}
+/* ebdaa */
+
+.ebdaa {
+    background: #75B9B0;
+}
+
+.ebdaa .back-btn {
+    background: #012938;
+    
+}
+
+
+.ebdaa .mid-title {
+    color: #fff;
+}
+
+.ebdaa .num {
+    background-color: #012938;
+    color: #fff;
+    
+}
+
+.ebdaa .page-img {
+    width: 75%;
+    margin-right: auto;
+    display: block;
+
+}
+/* alketaab */
+
+.alketaab {
+    background: #75B9B0;
+}
+
+.alketaab .back-btn {
+    background: #012938;
+    
+}
+
+
+.alketaab .mid-title {
+    color: #fff;
+}
+
+.alketaab .num {
+    background-color: #012938;
+    color: #fff;
+    
+}
+
+.alketaab .page-img {
+    width: 75%;
+    margin-right: auto;
+    display: block;
+
+}
