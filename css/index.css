@@ -103,6 +103,7 @@ button {
     display: block;
 
 }
+
 /* tadreeb-dawly */
 
 .tadreeb-dawly {
@@ -129,6 +130,7 @@ button {
     display: block;
 
 }
+
 /* tadreeb-wekaalaat */
 
 .tadreeb-wekaalaat {
@@ -155,6 +157,7 @@ button {
     display: block;
 
 }
+
 /* daam-shorakaa */
 
 .daam-shorakaa {
@@ -172,7 +175,7 @@ button {
 
 .daam-shorakaa .num {
     background: #012938;
-    
+
     color: #E1912E;
 }
 
@@ -182,6 +185,7 @@ button {
     display: block;
 
 }
+
 /* tadreeb-naashreen */
 
 .tadreeb-naashreen {
@@ -199,7 +203,7 @@ button {
 
 .tadreeb-naashreen .num {
     background: #780A47;
-    
+
     color: #E1912E;
 }
 
@@ -209,6 +213,7 @@ button {
     display: block;
 
 }
+
 /* mosareaat */
 
 .mosareaat {
@@ -226,7 +231,7 @@ button {
 
 .mosareaat .num {
     background: #012938;
-    
+
     color: #85B8B1;
 }
 
@@ -236,6 +241,7 @@ button {
     display: block;
 
 }
+
 /* adb */
 
 .adb {
@@ -253,7 +259,7 @@ button {
 
 .adb .num {
     background: #012938;
-    
+
     color: #85B8B1;
 }
 
@@ -263,6 +269,7 @@ button {
     display: block;
 
 }
+
 /* ershaad */
 
 .ershaad {
@@ -280,7 +287,7 @@ button {
 
 .ershaad .num {
     background: #012938;
-    
+
     color: #85B8B1;
 }
 
@@ -290,6 +297,7 @@ button {
     display: block;
 
 }
+
 /* tadreeb-targama */
 
 .tadreeb-targama {
@@ -307,7 +315,7 @@ button {
 
 .tadreeb-targama .num {
     color: #012938;
-    
+
     background: #85B8B1;
 }
 
@@ -317,6 +325,7 @@ button {
     display: block;
 
 }
+
 /* manga */
 
 .manga {
@@ -334,7 +343,7 @@ button {
 
 .manga .num {
     color: #012938;
-    
+
     background: #85B8B1;
 }
 
@@ -344,16 +353,17 @@ button {
     display: block;
 
 }
+
 /* tadreeb-falsafa */
 
 .tadreeb-falsafa {
-    
+
     background-color: #012938;
 }
 
 .tadreeb-falsafa .back-btn {
     background: #85B8B1;
-    
+
 }
 
 
@@ -365,7 +375,7 @@ button {
 .tadreeb-falsafa .num {
     background-color: #012938;
     color: #fff;
-    
+
 }
 
 .tadreeb-falsafa .page-img {
@@ -378,13 +388,13 @@ button {
 /* gawda */
 
 .gawda {
-    
+
     background-color: #780A47;
 }
 
 .gawda .back-btn {
     background: #fe9317;
-    
+
 }
 
 
@@ -396,7 +406,7 @@ button {
 .gawda .num {
     background-color: #012938;
     color: #fff;
-    
+
 }
 
 .gawda .page-img {
@@ -405,6 +415,7 @@ button {
     display: block;
 
 }
+
 /* ebdaa */
 
 .ebdaa {
@@ -413,7 +424,7 @@ button {
 
 .ebdaa .back-btn {
     background: #012938;
-    
+
 }
 
 
@@ -424,7 +435,7 @@ button {
 .ebdaa .num {
     background-color: #012938;
     color: #fff;
-    
+
 }
 
 .ebdaa .page-img {
@@ -433,31 +444,101 @@ button {
     display: block;
 
 }
+
 /* alketaab */
 
 .alketaab {
-    background: #75B9B0;
+    background: #012938;
 }
 
 .alketaab .back-btn {
-    background: #012938;
-    
+    background: #75B9B0;
+
 }
 
 
 .alketaab .mid-title {
     color: #fff;
+    background-color: #E1912E;
 }
 
 .alketaab .num {
     background-color: #012938;
-    color: #fff;
-    
+    color: #E1912E;
+
 }
 
 .alketaab .page-img {
     width: 75%;
     margin-right: auto;
+    display: block;
+
+}
+
+/* aamaal */
+
+.aamaal {
+    background: #012938;
+}
+
+.aamaal .back-btn {
+    background: #75B9B0;
+
+}
+
+
+.aamaal .mid-title {
+    color: #fff;
+    background-color: #E1912E;
+}
+
+.aamaal .num {
+    background-color: #012938;
+    color: #E1912E;
+
+}
+
+.aamaal .page-img {
+    width: 100%;
+    margin-right: auto;
+    display: block;
+
+}
+
+.aamaal .next-btn span {
+    background: #75B9B0;
+}
+
+.aamaal .prev-btn span{
+    
+    background: #75B9B0;
+}
+/* you */
+
+.you {
+    background: #012938;
+}
+
+.you .back-btn {
+    background: #75B9B0;
+
+}
+
+
+.you .mid-title {
+    color: #fff;
+    background-color: #E1912E;
+}
+
+.you .num {
+    background-color: #012938;
+    color: #E1912E;
+
+}
+
+.you .page-img {
+    width: 92.5%;
+    margin-left: auto;
     display: block;
 
 }

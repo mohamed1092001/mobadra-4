@@ -153,7 +153,7 @@ section {
     text-align: center;
     margin: 0px auto;
     margin-bottom: 7%;
-    padding:4px 1vw;
+    padding: 4px 1vw;
     width: fit-content;
     font-weight: 500;
 }
@@ -218,6 +218,7 @@ section {
 .three-goals-con .goal-box {
     width: calc(100% / 3);
 }
+
 .two-goals-con .goal-box {
     width: calc(100% / 2);
 }
@@ -226,7 +227,7 @@ section {
     width: calc(100% / 4);
 }
 
-.four-goals-con .goal-box p{
+.four-goals-con .goal-box p {
     padding: 0% !important;
 }
 
@@ -246,6 +247,7 @@ section {
     text-align: right !important;
     text-align-last: right !important;
 }
+
 .en-section .qr-box p {
     text-align: left !important;
     text-align-last: left !important;
@@ -258,6 +260,9 @@ section {
 .next-btn {
     display: flex;
     justify-content: flex-start;
+    position: absolute;
+    bottom: 1vh;
+    right: 1vh;
 }
 
 
@@ -284,6 +289,9 @@ section {
 .prev-btn {
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    bottom: 1vh;
+    left: 1vh;
 }
 
 
@@ -318,7 +326,7 @@ section {
     transform: translateY(-50%) translateX(0px) !important;
 }
 
-.num{
+.num {
     aspect-ratio: 1/1;
     display: flex !important;
     justify-content: center !important;

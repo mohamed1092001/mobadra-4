@@ -50,7 +50,9 @@ $(document).ready(function () {
         $(".en-section .goal-box .num").css("font-size", (fontSize * .019) + 'px');
         $(".baba-en .mid-title").css("font-size", (fontSize * .034) + 'px');
         $(".tadreeb-targama .goal-box p").css("font-size", (fontSize * .03) + 'px');
-        $(".tadreeb-targama .goal-box p").css("font-size", (fontSize * .03) + 'px');
+        $(".alketaab .goal-box p").css("font-size", (fontSize * .021) + 'px');
+        $(".aamaal .description").css("font-size", (fontSize * .027) + 'px');
+        
     }
 
     // أول مرة لما الصفحة تتحمل
@@ -108,72 +110,31 @@ $(document).ready(function () {
         $("." + pageTarget).fadeIn(800);
     })
 
-    $(".elketaab-ar .next-btn button").click(function () {
+
+    $(".aamaal-ar .next-btn button").click(function () {
         $("section").fadeOut(700);
-        $(".elketaab2-ar").fadeIn(800);
+        $(".aamaal2-ar").fadeIn(800);
         $(".info-section video").trigger("pause")
-        $("iframe").attr("src", "none")
-        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
+        $(".info-section video").prop('currentTime', 0);
+    })
+    $(".aamaal-en .next-btn button").click(function () {
+        $("section").fadeOut(700);
+        $(".aamaal2-en").fadeIn(800);
+        $(".info-section video").trigger("pause")
         $(".info-section video").prop('currentTime', 0);
     })
 
-    $(".elketaab-en .next-btn button").click(function () {
+    
+    $(".aamaal2-ar .prev-btn button").click(function () {
         $("section").fadeOut(700);
-        $(".elketaab2-en").fadeIn(800);
+        $(".aamaal-ar").fadeIn(800);
         $(".info-section video").trigger("pause")
-        $("iframe").attr("src", "none")
-        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
         $(".info-section video").prop('currentTime', 0);
     })
-
-    $(".door-ar .next-btn button").click(function () {
+    $(".aamaal2-en .prev-btn button").click(function () {
         $("section").fadeOut(700);
-        $(".door2-ar").fadeIn(800);
+        $(".aamaal-en").fadeIn(800);
         $(".info-section video").trigger("pause")
-        $("iframe").attr("src", "none")
-        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
-        $(".info-section video").prop('currentTime', 0);
-    })
-
-    $(".door-en .next-btn button").click(function () {
-        $("section").fadeOut(700);
-        $(".door2-en").fadeIn(800);
-        $(".info-section video").trigger("pause")
-        $("iframe").attr("src", "none")
-        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
-        $(".info-section video").prop('currentTime', 0);
-    })
-
-    $(".elketaab2-ar .prev-btn button").click(function () {
-        $("section").fadeOut(700);
-        $(".elketaab-ar").fadeIn(800);
-        $(".info-section video").trigger("pause")
-        $("iframe").attr("src", "none")
-        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
-        $(".info-section video").prop('currentTime', 0);
-    })
-    $(".elketaab2-en .prev-btn button").click(function () {
-        $("section").fadeOut(700);
-        $(".elketaab-en").fadeIn(800);
-        $(".info-section video").trigger("pause")
-        $("iframe").attr("src", "none")
-        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
-        $(".info-section video").prop('currentTime', 0);
-    })
-    $(".door2-ar .prev-btn button").click(function () {
-        $("section").fadeOut(700);
-        $(".door-ar").fadeIn(800);
-        $(".info-section video").trigger("pause")
-        $("iframe").attr("src", "none")
-        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
-        $(".info-section video").prop('currentTime', 0);
-    })
-    $(".door2-en .prev-btn button").click(function () {
-        $("section").fadeOut(700);
-        $(".door-en").fadeIn(800);
-        $(".info-section video").trigger("pause")
-        $("iframe").attr("src", "none")
-        $("iframe").attr("src", "https://www.youtube.com/embed/rEA7D2wMTK4")
         $(".info-section video").prop('currentTime', 0);
     })
 
