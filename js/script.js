@@ -42,6 +42,8 @@ $(document).ready(function () {
         $(".ar-section .goal-row .mid-title").css("font-size", (fontSize * .04) + 'px');
         $(".en-section .goal-row .mid-title").css("font-size", (fontSize * .04) + 'px');
         $(".en-section .qr-box p").css("font-size", (fontSize * .025) + 'px');
+        $(".tadreeb-dawly p").css("font-size", (fontSize * .032) + 'px');
+        $(".tadreeb-wekaalaat p").css("font-size", (fontSize * .032) + 'px');
         $(".num").css("width", (fontSize * .06) + 'px');
         $(".num").css("font-size", (fontSize * .034) + 'px');
         $(".mid-text").css("font-size", (fontSize * .021) + 'px');
@@ -52,6 +54,7 @@ $(document).ready(function () {
         $(".tadreeb-targama .goal-box p").css("font-size", (fontSize * .03) + 'px');
         $(".alketaab .goal-box p").css("font-size", (fontSize * .021) + 'px');
         $(".aamaal .description").css("font-size", (fontSize * .027) + 'px');
+        $(".sharaakaat .mid-title").css("font-size", (fontSize * .044) + 'px');
         
     }
 
