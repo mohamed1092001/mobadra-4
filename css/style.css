@@ -379,3 +379,8 @@ section {
 .info-section p {
     line-height: 120%;
 }
+
+
+.menu-ar img {
+    transform: scale(.8);
+}
